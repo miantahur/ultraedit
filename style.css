@@ -1,0 +1,131 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* nav{
+    position:fixed;
+    top: 0;
+    background-color: white; 
+    z-index: 100; 
+    justify-content: center;
+    align-items: center;
+} */
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin: 70px;
+  font-family: sans-serif;
+}
+.first span {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.first span img {
+  width: 82px;
+  margin: 0px 23px;
+}
+.first p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  text-align: center;
+}
+.button-1 {
+  background-color: #09a6bd;
+  color: white;
+  padding: 15px 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+.ue {
+  padding: 12px;
+  margin-left: 50px;
+  font-size: 21px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 80px !important;
+}
+.ue a {
+  color: black;
+  font-size: 15px;
+}
+.second{
+    max-width: 30vh;
+    margin: 0px;
+}
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang{
+    padding-bottom: 30px;
+    font-weight: 700;
+    text-align: center
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    text-align: center;
+}
+.btn-bl{
+    background-color: rgb(97, 97, 238);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    /* text-decoration: none; */
+    /* text-decoration-line: none; */
+    /* text-decoration: dotted; */
+    padding: 10px;
+    text-transform: none;
+}
+.btn-bl a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn-gr a{
+    color: white;
+    text-decoration: none;
+
+}
+.btn-gr{
+    background-color: rgb(68, 224, 128);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: none;
+    text-decoration: none;
+
+}
+footer{
+    background-color: #0b1516;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+
+    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot{
+    margin: 0%;
+
+}
